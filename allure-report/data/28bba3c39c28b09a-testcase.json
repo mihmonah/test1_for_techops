@@ -1,0 +1,143 @@
+{
+  "uid" : "28bba3c39c28b09a",
+  "name" : "test_input_data_to_filters[incorrect_date_from]",
+  "title" : "Test input data to filters [incorrect_date_from]",
+  "time" : {
+    "start" : 1487250869880,
+    "stop" : 1487250887758,
+    "duration" : 17878
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "aae5c29b8bfaa21f",
+    "name" : "test_for_find_currency",
+    "title" : "Test for find currency"
+  },
+  "steps" : [ {
+    "name" : "open Firefox webdriver and connect to converter site",
+    "title" : "open Firefox webdriver and connect to converter site",
+    "time" : {
+      "start" : 1487250869882,
+      "stop" : 1487250879300,
+      "duration" : 9418
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getting parameters for test",
+    "title" : "getting parameters for test",
+    "time" : {
+      "start" : 1487250879305,
+      "stop" : 1487250879305,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "input data from",
+    "title" : "input data from",
+    "time" : {
+      "start" : 1487250879305,
+      "stop" : 1487250881316,
+      "duration" : 2011
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "input data to",
+    "title" : "input data to",
+    "time" : {
+      "start" : 1487250881316,
+      "stop" : 1487250883566,
+      "duration" : 2250
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "click \"Показать\" button",
+    "title" : "click \"Показать\" button",
+    "time" : {
+      "start" : 1487250883566,
+      "stop" : 1487250883730,
+      "duration" : 164
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checking results of click \"Показать\" button",
+    "title" : "checking results of click \"Показать\" button",
+    "time" : {
+      "start" : 1487250887730,
+      "stop" : 1487250887756,
+      "duration" : 26
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured stdout setup",
+    "source" : "5d4b87e8-ef54-4f2e-aa50-550d7f33b4c9-attachment.txt",
+    "type" : "text/plain",
+    "size" : 27,
+    "uid" : "92a790fc9d75117b"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "computer"
+  }, {
+    "name" : "thread",
+    "value" : "8764-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_for_find_currency"
+  }, {
+    "name" : "feature",
+    "value" : "Test: \"input data to filters\""
+  } ],
+  "parameters" : [ ]
+}

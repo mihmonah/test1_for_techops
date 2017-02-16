@@ -1,0 +1,143 @@
+{
+  "uid" : "9b2c44bb729a7668",
+  "name" : "test_find_currency[EUR]",
+  "title" : "Test find currency [EUR]",
+  "time" : {
+    "start" : 1487250563987,
+    "stop" : 1487250576649,
+    "duration" : 12662
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "aae5c29b8bfaa21f",
+    "name" : "test_for_find_currency",
+    "title" : "Test for find currency"
+  },
+  "steps" : [ {
+    "name" : "open Firefox webdriver and connect to converter site",
+    "title" : "open Firefox webdriver and connect to converter site",
+    "time" : {
+      "start" : 1487250563988,
+      "stop" : 1487250573600,
+      "duration" : 9612
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getting parameters for test",
+    "title" : "getting parameters for test",
+    "time" : {
+      "start" : 1487250573607,
+      "stop" : 1487250573607,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "open first select currency element and change it to currancy from parameters",
+    "title" : "open first select currency element and change it to currancy from parameters",
+    "time" : {
+      "start" : 1487250573607,
+      "stop" : 1487250576050,
+      "duration" : 2443
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "click to \"Расширенная таблица курсов\" button",
+    "title" : "click to \"Расширенная таблица курсов\" button",
+    "time" : {
+      "start" : 1487250576050,
+      "stop" : 1487250576234,
+      "duration" : 184
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "click to \"Динамика изменения курсов\" button",
+    "title" : "click to \"Динамика изменения курсов\" button",
+    "time" : {
+      "start" : 1487250576239,
+      "stop" : 1487250576418,
+      "duration" : 179
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "comparison input currancy and currancy after clicking buttons",
+    "title" : "comparison input currancy and currancy after clicking buttons",
+    "time" : {
+      "start" : 1487250576422,
+      "stop" : 1487250576647,
+      "duration" : 225
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured stdout setup",
+    "source" : "d4c2581a-ee3b-4820-8098-99e1183d0ace-attachment.txt",
+    "type" : "text/plain",
+    "size" : 27,
+    "uid" : "5b82d3f3c7ec9e8c"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "computer"
+  }, {
+    "name" : "thread",
+    "value" : "8764-MainThread"
+  }, {
+    "name" : "feature",
+    "value" : "Test: \"find currency\""
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_for_find_currency"
+  } ],
+  "parameters" : [ ]
+}

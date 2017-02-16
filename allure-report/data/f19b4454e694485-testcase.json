@@ -1,0 +1,152 @@
+{
+  "uid" : "f19b4454e694485",
+  "name" : "test_input_data_to_filters[incorrect_dates]",
+  "title" : "Test input data to filters [incorrect_dates]",
+  "time" : {
+    "start" : 1487250802004,
+    "stop" : 1487250851329,
+    "duration" : 49325
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 6
+  },
+  "failure" : {
+    "message" : "AssertionError: assert 0",
+    "stackTrace" : "resource_setup = <selenium.webdriver.firefox.webdriver.WebDriver (session=\"88a43914-a069-438f-a894-b8035d63acd0\")>\nparam_test_for_from_to_filter = ('31.12.2005', '31.12.2002')\n\n    @allure.feature('Test: \"input data to filters\"')\n    def test_input_data_to_filters(resource_setup,param_test_for_from_to_filter):\n    \twith pytest.allure.step('getting parameters for test'):\n    \t\t(data_from, data_to) = param_test_for_from_to_filter\n    \twith pytest.allure.step('input data from'):\n    \t\tfilter_from = resource_setup.find_element_by_name('filter-datepicker-details-from')\n    \t\tfilter_from.clear()\n    \t\tfilter_from.send_keys(data_from)\n    \t\tfilter_from.send_keys(Keys.RETURN)\n    \twith pytest.allure.step('input data to'):\n    \t\tfilter_to = resource_setup.find_element_by_name('filter-datepicker-details-to')\n    \t\tfilter_to.clear()\n    \t\tfilter_to.send_keys(data_to)\n    \t\tfilter_to.send_keys(Keys.RETURN)\n    \twith pytest.allure.step('click \"Показать\" button'):\n    \t\tresource_setup.find_element_by_xpath(\"//div[@class='rates-details-period-datepicker-line']//button\").click()\n    \ttime.sleep(4)\n    \twith pytest.allure.step('checking results of click \"Показать\" button'):\n    \t\ttry:\n    \t\t\tresource_setup.find_element_by_xpath(\"//div[@class='jqplot-axis jqplot-xaxis']//div\")\n    \t\texcept Exception as e:\n    \t\t\tprint(\"Input data is incorrect\",format(e))\n>   \t\t\tassert 0\nE      assert 0\n\ntest_from_to_filter.py:29: AssertionError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "aae5c29b8bfaa21f",
+    "name" : "test_for_find_currency",
+    "title" : "Test for find currency"
+  },
+  "steps" : [ {
+    "name" : "open Firefox webdriver and connect to converter site",
+    "title" : "open Firefox webdriver and connect to converter site",
+    "time" : {
+      "start" : 1487250802005,
+      "stop" : 1487250813657,
+      "duration" : 11652
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getting parameters for test",
+    "title" : "getting parameters for test",
+    "time" : {
+      "start" : 1487250813663,
+      "stop" : 1487250813663,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "input data from",
+    "title" : "input data from",
+    "time" : {
+      "start" : 1487250813663,
+      "stop" : 1487250816033,
+      "duration" : 2370
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "input data to",
+    "title" : "input data to",
+    "time" : {
+      "start" : 1487250816033,
+      "stop" : 1487250816838,
+      "duration" : 805
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "click \"Показать\" button",
+    "title" : "click \"Показать\" button",
+    "time" : {
+      "start" : 1487250816838,
+      "stop" : 1487250817232,
+      "duration" : 394
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checking results of click \"Показать\" button",
+    "title" : "checking results of click \"Показать\" button",
+    "time" : {
+      "start" : 1487250821232,
+      "stop" : 1487250851301,
+      "duration" : 30069
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured stdout setup",
+    "source" : "db2fc60f-c7d8-4932-abc3-069c8e0cb9eb-attachment.txt",
+    "type" : "text/plain",
+    "size" : 27,
+    "uid" : "34e447d7527373ce"
+  }, {
+    "title" : "Captured stdout call",
+    "source" : "c505f4bb-4853-4783-892d-8c0f956149ad-attachment.txt",
+    "type" : "text/plain",
+    "size" : 106,
+    "uid" : "92c76813b5ec1d15"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "computer"
+  }, {
+    "name" : "thread",
+    "value" : "8764-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_for_find_currency"
+  }, {
+    "name" : "feature",
+    "value" : "Test: \"input data to filters\""
+  } ],
+  "parameters" : [ ]
+}

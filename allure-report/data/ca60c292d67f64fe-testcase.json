@@ -1,0 +1,128 @@
+{
+  "uid" : "ca60c292d67f64fe",
+  "name" : "test_insert_convertation_sum[max_correct]",
+  "title" : "Test insert convertation sum [max_correct]",
+  "time" : {
+    "start" : 1487250655407,
+    "stop" : 1487250674389,
+    "duration" : 18982
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "aae5c29b8bfaa21f",
+    "name" : "test_for_find_currency",
+    "title" : "Test for find currency"
+  },
+  "steps" : [ {
+    "name" : "open Firefox webdriver and connect to converter site",
+    "title" : "open Firefox webdriver and connect to converter site",
+    "time" : {
+      "start" : 1487250655409,
+      "stop" : 1487250665973,
+      "duration" : 10564
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "find window for inserting conversation sum and clear its content",
+    "title" : "find window for inserting conversation sum and clear its content",
+    "time" : {
+      "start" : 1487250665979,
+      "stop" : 1487250670310,
+      "duration" : 4331
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getting parameters for test and insert it to conversation window",
+    "title" : "getting parameters for test and insert it to conversation window",
+    "time" : {
+      "start" : 1487250670310,
+      "stop" : 1487250671288,
+      "duration" : 978
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getting result from \"Вы получите\" window",
+    "title" : "getting result from \"Вы получите\" window",
+    "time" : {
+      "start" : 1487250674288,
+      "stop" : 1487250674389,
+      "duration" : 101
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "comparison input and output data",
+    "title" : "comparison input and output data",
+    "time" : {
+      "start" : 1487250674389,
+      "stop" : 1487250674389,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured stdout setup",
+    "source" : "af1b7cde-fc6d-44a4-961e-c60b985884ac-attachment.txt",
+    "type" : "text/plain",
+    "size" : 27,
+    "uid" : "27f674f4b35e5513"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test: \"insert convertation sum\""
+  }, {
+    "name" : "host",
+    "value" : "computer"
+  }, {
+    "name" : "thread",
+    "value" : "8764-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_for_find_currency"
+  } ],
+  "parameters" : [ ]
+}
