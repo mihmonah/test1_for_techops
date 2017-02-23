@@ -1,22 +1,22 @@
 {
-  "uid" : "5332efd691dd8dde",
-  "name" : "test_input_data_to_filters[correct_dates]",
-  "title" : "Test input data to filters [correct_dates]",
+  "uid" : "9e0609a66089c206",
+  "name" : "test_insert_convertation_sum[min_correct]",
+  "title" : "Test insert convertation sum [min_correct]",
   "time" : {
-    "start" : 1487250783520,
-    "stop" : 1487250801894,
-    "duration" : 18374
+    "start" : 1487851203556,
+    "stop" : 1487851221825,
+    "duration" : 18269
   },
   "summary" : {
     "attachments" : 1,
-    "steps" : 6
+    "steps" : 5
   },
   "failure" : null,
   "description" : null,
   "severity" : "NORMAL",
   "status" : "PASSED",
   "suite" : {
-    "uid" : "aae5c29b8bfaa21f",
+    "uid" : "10abbdcc4a358ac9",
     "name" : "test_for_find_currency",
     "title" : "Test for find currency"
   },
@@ -24,9 +24,9 @@
     "name" : "open Firefox webdriver and connect to converter site",
     "title" : "open Firefox webdriver and connect to converter site",
     "time" : {
-      "start" : 1487250783522,
-      "stop" : 1487250794352,
-      "duration" : 10830
+      "start" : 1487851203557,
+      "stop" : 1487851214389,
+      "duration" : 10832
     },
     "summary" : {
       "attachments" : 0,
@@ -36,72 +36,57 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "getting parameters for test",
-    "title" : "getting parameters for test",
+    "name" : "find window for inserting conversation sum and clear its content",
+    "title" : "find window for inserting conversation sum and clear its content",
     "time" : {
-      "start" : 1487250794359,
-      "stop" : 1487250794359,
+      "start" : 1487851214406,
+      "stop" : 1487851218485,
+      "duration" : 4079
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getting parameters for test and insert it to conversation window",
+    "title" : "getting parameters for test and insert it to conversation window",
+    "time" : {
+      "start" : 1487851218485,
+      "stop" : 1487851221752,
+      "duration" : 3267
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getting result from \"Вы получите\" window",
+    "title" : "getting result from \"Вы получите\" window",
+    "time" : {
+      "start" : 1487851221752,
+      "stop" : 1487851221824,
+      "duration" : 72
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "comparison input and output data",
+    "title" : "comparison input and output data",
+    "time" : {
+      "start" : 1487851221824,
+      "stop" : 1487851221824,
       "duration" : 0
-    },
-    "summary" : {
-      "attachments" : 0,
-      "steps" : 0
-    },
-    "status" : "PASSED",
-    "attachments" : [ ],
-    "steps" : [ ]
-  }, {
-    "name" : "input data from",
-    "title" : "input data from",
-    "time" : {
-      "start" : 1487250794359,
-      "stop" : 1487250797163,
-      "duration" : 2804
-    },
-    "summary" : {
-      "attachments" : 0,
-      "steps" : 0
-    },
-    "status" : "PASSED",
-    "attachments" : [ ],
-    "steps" : [ ]
-  }, {
-    "name" : "input data to",
-    "title" : "input data to",
-    "time" : {
-      "start" : 1487250797163,
-      "stop" : 1487250797780,
-      "duration" : 617
-    },
-    "summary" : {
-      "attachments" : 0,
-      "steps" : 0
-    },
-    "status" : "PASSED",
-    "attachments" : [ ],
-    "steps" : [ ]
-  }, {
-    "name" : "click \"Показать\" button",
-    "title" : "click \"Показать\" button",
-    "time" : {
-      "start" : 1487250797780,
-      "stop" : 1487250797869,
-      "duration" : 89
-    },
-    "summary" : {
-      "attachments" : 0,
-      "steps" : 0
-    },
-    "status" : "PASSED",
-    "attachments" : [ ],
-    "steps" : [ ]
-  }, {
-    "name" : "checking results of click \"Показать\" button",
-    "title" : "checking results of click \"Показать\" button",
-    "time" : {
-      "start" : 1487250801869,
-      "stop" : 1487250801892,
-      "duration" : 23
     },
     "summary" : {
       "attachments" : 0,
@@ -113,19 +98,22 @@
   } ],
   "attachments" : [ {
     "title" : "Captured stdout setup",
-    "source" : "d0f72733-d4ad-4a62-97ec-83015b10b392-attachment.txt",
+    "source" : "08824f9a-203a-4936-9b96-46e1aac74f22-attachment.txt",
     "type" : "text/plain",
     "size" : 27,
-    "uid" : "1581a915a2427f6e"
+    "uid" : "c53b67af08ad90de"
   } ],
   "issues" : [ ],
   "testIds" : [ ],
   "labels" : [ {
+    "name" : "feature",
+    "value" : "Test: \"insert convertation sum\""
+  }, {
     "name" : "host",
     "value" : "computer"
   }, {
     "name" : "thread",
-    "value" : "8764-MainThread"
+    "value" : "4608-MainThread"
   }, {
     "name" : "suite-title",
     "value" : null
@@ -135,9 +123,6 @@
   }, {
     "name" : "suite-name",
     "value" : "test_for_find_currency"
-  }, {
-    "name" : "feature",
-    "value" : "Test: \"input data to filters\""
   } ],
   "parameters" : [ ]
 }

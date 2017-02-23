@@ -1,22 +1,22 @@
 {
-  "uid" : "9b2c44bb729a7668",
-  "name" : "test_find_currency[EUR]",
-  "title" : "Test find currency [EUR]",
+  "uid" : "dae1e437de28143f",
+  "name" : "test_input_data_to_filters[incorrect_date_from]",
+  "title" : "Test input data to filters [incorrect_date_from]",
   "time" : {
-    "start" : 1487250563987,
-    "stop" : 1487250576649,
-    "duration" : 12662
+    "start" : 1487851431818,
+    "stop" : 1487851452479,
+    "duration" : 20661
   },
   "summary" : {
     "attachments" : 1,
-    "steps" : 6
+    "steps" : 5
   },
   "failure" : null,
   "description" : null,
   "severity" : "NORMAL",
   "status" : "PASSED",
   "suite" : {
-    "uid" : "aae5c29b8bfaa21f",
+    "uid" : "10abbdcc4a358ac9",
     "name" : "test_for_find_currency",
     "title" : "Test for find currency"
   },
@@ -24,9 +24,9 @@
     "name" : "open Firefox webdriver and connect to converter site",
     "title" : "open Firefox webdriver and connect to converter site",
     "time" : {
-      "start" : 1487250563988,
-      "stop" : 1487250573600,
-      "duration" : 9612
+      "start" : 1487851431819,
+      "stop" : 1487851442982,
+      "duration" : 11163
     },
     "summary" : {
       "attachments" : 0,
@@ -39,8 +39,8 @@
     "name" : "getting parameters for test",
     "title" : "getting parameters for test",
     "time" : {
-      "start" : 1487250573607,
-      "stop" : 1487250573607,
+      "start" : 1487851442988,
+      "stop" : 1487851442988,
       "duration" : 0
     },
     "summary" : {
@@ -51,12 +51,12 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "open first select currency element and change it to currancy from parameters",
-    "title" : "open first select currency element and change it to currancy from parameters",
+    "name" : "input data from",
+    "title" : "input data from",
     "time" : {
-      "start" : 1487250573607,
-      "stop" : 1487250576050,
-      "duration" : 2443
+      "start" : 1487851446989,
+      "stop" : 1487851447697,
+      "duration" : 708
     },
     "summary" : {
       "attachments" : 0,
@@ -66,12 +66,12 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "click to \"Расширенная таблица курсов\" button",
-    "title" : "click to \"Расширенная таблица курсов\" button",
+    "name" : "input data to",
+    "title" : "input data to",
     "time" : {
-      "start" : 1487250576050,
-      "stop" : 1487250576234,
-      "duration" : 184
+      "start" : 1487851447697,
+      "stop" : 1487851448321,
+      "duration" : 624
     },
     "summary" : {
       "attachments" : 0,
@@ -81,27 +81,12 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "click to \"Динамика изменения курсов\" button",
-    "title" : "click to \"Динамика изменения курсов\" button",
+    "name" : "click \"Показать\" button",
+    "title" : "click \"Показать\" button",
     "time" : {
-      "start" : 1487250576239,
-      "stop" : 1487250576418,
-      "duration" : 179
-    },
-    "summary" : {
-      "attachments" : 0,
-      "steps" : 0
-    },
-    "status" : "PASSED",
-    "attachments" : [ ],
-    "steps" : [ ]
-  }, {
-    "name" : "comparison input currancy and currancy after clicking buttons",
-    "title" : "comparison input currancy and currancy after clicking buttons",
-    "time" : {
-      "start" : 1487250576422,
-      "stop" : 1487250576647,
-      "duration" : 225
+      "start" : 1487851448321,
+      "stop" : 1487851448421,
+      "duration" : 100
     },
     "summary" : {
       "attachments" : 0,
@@ -113,10 +98,10 @@
   } ],
   "attachments" : [ {
     "title" : "Captured stdout setup",
-    "source" : "d4c2581a-ee3b-4820-8098-99e1183d0ace-attachment.txt",
+    "source" : "bb610054-1e67-4967-bc91-a0b432090c6f-attachment.txt",
     "type" : "text/plain",
     "size" : 27,
-    "uid" : "5b82d3f3c7ec9e8c"
+    "uid" : "cf2eb29a7f84adf3"
   } ],
   "issues" : [ ],
   "testIds" : [ ],
@@ -125,10 +110,7 @@
     "value" : "computer"
   }, {
     "name" : "thread",
-    "value" : "8764-MainThread"
-  }, {
-    "name" : "feature",
-    "value" : "Test: \"find currency\""
+    "value" : "4608-MainThread"
   }, {
     "name" : "suite-title",
     "value" : null
@@ -138,6 +120,9 @@
   }, {
     "name" : "suite-name",
     "value" : "test_for_find_currency"
+  }, {
+    "name" : "feature",
+    "value" : "Test: \"input data to filters\""
   } ],
   "parameters" : [ ]
 }

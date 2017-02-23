@@ -1,11 +1,11 @@
 {
-  "uid" : "82f337c9804290ca",
-  "name" : "test_insert_convertation_sum[min_correct]",
-  "title" : "Test insert convertation sum [min_correct]",
+  "uid" : "46d9851638bfb333",
+  "name" : "test_insert_convertation_sum[incorrect_data_with_correct_answer]",
+  "title" : "Test insert convertation sum [incorrect_data_with_correct_answer]",
   "time" : {
-    "start" : 1487250636194,
-    "stop" : 1487250655314,
-    "duration" : 19120
+    "start" : 1487851258425,
+    "stop" : 1487851275877,
+    "duration" : 17452
   },
   "summary" : {
     "attachments" : 1,
@@ -16,7 +16,7 @@
   "severity" : "NORMAL",
   "status" : "PASSED",
   "suite" : {
-    "uid" : "aae5c29b8bfaa21f",
+    "uid" : "10abbdcc4a358ac9",
     "name" : "test_for_find_currency",
     "title" : "Test for find currency"
   },
@@ -24,9 +24,9 @@
     "name" : "open Firefox webdriver and connect to converter site",
     "title" : "open Firefox webdriver and connect to converter site",
     "time" : {
-      "start" : 1487250636195,
-      "stop" : 1487250647901,
-      "duration" : 11706
+      "start" : 1487851258426,
+      "stop" : 1487851267881,
+      "duration" : 9455
     },
     "summary" : {
       "attachments" : 0,
@@ -39,9 +39,9 @@
     "name" : "find window for inserting conversation sum and clear its content",
     "title" : "find window for inserting conversation sum and clear its content",
     "time" : {
-      "start" : 1487250647911,
-      "stop" : 1487250651964,
-      "duration" : 4053
+      "start" : 1487851267887,
+      "stop" : 1487851272211,
+      "duration" : 4324
     },
     "summary" : {
       "attachments" : 0,
@@ -54,9 +54,9 @@
     "name" : "getting parameters for test and insert it to conversation window",
     "title" : "getting parameters for test and insert it to conversation window",
     "time" : {
-      "start" : 1487250651964,
-      "stop" : 1487250652231,
-      "duration" : 267
+      "start" : 1487851272211,
+      "stop" : 1487851275818,
+      "duration" : 3607
     },
     "summary" : {
       "attachments" : 0,
@@ -69,9 +69,9 @@
     "name" : "getting result from \"Вы получите\" window",
     "title" : "getting result from \"Вы получите\" window",
     "time" : {
-      "start" : 1487250655231,
-      "stop" : 1487250655314,
-      "duration" : 83
+      "start" : 1487851275818,
+      "stop" : 1487851275877,
+      "duration" : 59
     },
     "summary" : {
       "attachments" : 0,
@@ -84,8 +84,8 @@
     "name" : "comparison input and output data",
     "title" : "comparison input and output data",
     "time" : {
-      "start" : 1487250655314,
-      "stop" : 1487250655314,
+      "start" : 1487851275877,
+      "stop" : 1487851275877,
       "duration" : 0
     },
     "summary" : {
@@ -98,10 +98,10 @@
   } ],
   "attachments" : [ {
     "title" : "Captured stdout setup",
-    "source" : "b4c376fc-fb1e-47eb-bbb8-b4486b659abf-attachment.txt",
+    "source" : "b9a42f55-4084-4f1a-82ff-caa7acd2eba0-attachment.txt",
     "type" : "text/plain",
     "size" : 27,
-    "uid" : "fde522689b720bf4"
+    "uid" : "be46645d239a69a4"
   } ],
   "issues" : [ ],
   "testIds" : [ ],
@@ -113,7 +113,7 @@
     "value" : "computer"
   }, {
     "name" : "thread",
-    "value" : "8764-MainThread"
+    "value" : "4608-MainThread"
   }, {
     "name" : "suite-title",
     "value" : null

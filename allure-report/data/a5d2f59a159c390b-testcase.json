@@ -1,0 +1,137 @@
+{
+  "uid" : "a5d2f59a159c390b",
+  "name" : "test_input_data_to_filters[correct_dates_no_data]",
+  "title" : "Test input data to filters [correct_dates_no_data]",
+  "time" : {
+    "start" : 1487851472708,
+    "stop" : 1487851521377,
+    "duration" : 48669
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 5
+  },
+  "failure" : {
+    "message" : "AssertionError: assert <function RightMenu.check_from_to_filters at 0x03420468>(<selenium.webdriver.firefox.webdriver.WebDriver (session=\"5a456ad9-84fa-4686-b195-fc5a7b27740b\")>, '31.01.2002', '31.01.2003')\n +  where <function RightMenu.check_from_to_filters at 0x03420468> = RightMenu.check_from_to_filters",
+    "stackTrace" : "resource_setup = <selenium.webdriver.firefox.webdriver.WebDriver (session=\"5a456ad9-84fa-4686-b195-fc5a7b27740b\")>\nparam_test_for_from_to_filter = ('31.01.2002', '31.01.2003')\n\n    @allure.feature('Test: \"input data to filters\"')\n    def test_input_data_to_filters(resource_setup, param_test_for_from_to_filter):\n        (data_from, data_to) = param_test_for_from_to_filter\n>       assert RightMenu.check_from_to_filters(resource_setup, data_from, data_to)\nE       assert <function RightMenu.check_from_to_filters at 0x03420468>(<selenium.webdriver.firefox.webdriver.WebDriver (session=\"5a456ad9-84fa-4686-b195-fc5a7b27740b\")>, '31.01.2002', '31.01.2003')\nE        +  where <function RightMenu.check_from_to_filters at 0x03420468> = RightMenu.check_from_to_filters\n\ntest_from_to_filter.py:10: AssertionError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "10abbdcc4a358ac9",
+    "name" : "test_for_find_currency",
+    "title" : "Test for find currency"
+  },
+  "steps" : [ {
+    "name" : "open Firefox webdriver and connect to converter site",
+    "title" : "open Firefox webdriver and connect to converter site",
+    "time" : {
+      "start" : 1487851472709,
+      "stop" : 1487851481919,
+      "duration" : 9210
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getting parameters for test",
+    "title" : "getting parameters for test",
+    "time" : {
+      "start" : 1487851481926,
+      "stop" : 1487851481926,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "input data from",
+    "title" : "input data from",
+    "time" : {
+      "start" : 1487851485926,
+      "stop" : 1487851486667,
+      "duration" : 741
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "input data to",
+    "title" : "input data to",
+    "time" : {
+      "start" : 1487851486667,
+      "stop" : 1487851487250,
+      "duration" : 583
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "click \"Показать\" button",
+    "title" : "click \"Показать\" button",
+    "time" : {
+      "start" : 1487851487250,
+      "stop" : 1487851487335,
+      "duration" : 85
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured stdout setup",
+    "source" : "41b55771-0c81-4baf-9f74-26d3f5d8eb63-attachment.txt",
+    "type" : "text/plain",
+    "size" : 27,
+    "uid" : "6d341cc2420e089f"
+  }, {
+    "title" : "Captured stdout call",
+    "source" : "827f343c-7e00-4099-b5fa-aafcd3d54bb0-attachment.txt",
+    "type" : "text/plain",
+    "size" : 86,
+    "uid" : "dd860387221a460c"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "computer"
+  }, {
+    "name" : "thread",
+    "value" : "4608-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_for_find_currency"
+  }, {
+    "name" : "feature",
+    "value" : "Test: \"input data to filters\""
+  } ],
+  "parameters" : [ ]
+}

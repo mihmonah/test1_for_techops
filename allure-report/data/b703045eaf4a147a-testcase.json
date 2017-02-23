@@ -1,22 +1,25 @@
 {
-  "uid" : "7e8a89b27984ca03",
-  "name" : "test_insert_convertation_sum[incorrect_data_with_correct_answer]",
-  "title" : "Test insert convertation sum [incorrect_data_with_correct_answer]",
+  "uid" : "b703045eaf4a147a",
+  "name" : "test_insert_convertation_sum[max_incorrect]",
+  "title" : "Test insert convertation sum [max_incorrect]",
   "time" : {
-    "start" : 1487250692476,
-    "stop" : 1487250710964,
-    "duration" : 18488
+    "start" : 1487851239998,
+    "stop" : 1487851258316,
+    "duration" : 18318
   },
   "summary" : {
     "attachments" : 1,
     "steps" : 5
   },
-  "failure" : null,
+  "failure" : {
+    "message" : "AssertionError: assert <function LeftMenu.check_insert_convertation_sum at 0x034203D8>(<selenium.webdriver.firefox.webdriver.WebDriver (session=\"e9f75c46-caaf-4408-85e3-e14f3a3d1b61\")>, '1000000000000', '1 000 000 000 000,00')\n +  where <function LeftMenu.check_insert_convertation_sum at 0x034203D8> = LeftMenu.check_insert_convertation_sum",
+    "stackTrace" : "resource_setup = <selenium.webdriver.firefox.webdriver.WebDriver (session=\"e9f75c46-caaf-4408-85e3-e14f3a3d1b61\")>\nparam_test_for_insert_convertation_sum = ('1000000000000', '1 000 000 000 000,00')\n\n    @allure.feature('Test: \"insert convertation sum\"')\n    def test_insert_convertation_sum(resource_setup, param_test_for_insert_convertation_sum):\n        (sum_in, sum_out) = param_test_for_insert_convertation_sum\n>       assert LeftMenu.check_insert_convertation_sum(resource_setup, sum_in, sum_out)\nE       assert <function LeftMenu.check_insert_convertation_sum at 0x034203D8>(<selenium.webdriver.firefox.webdriver.WebDriver (session=\"e9f75c46-caaf-4408-85e3-e14f3a3d1b61\")>, '1000000000000', '1 000 000 000 000,00')\nE        +  where <function LeftMenu.check_insert_convertation_sum at 0x034203D8> = LeftMenu.check_insert_convertation_sum\n\ntest_for_insert_convertation_sum.py:10: AssertionError"
+  },
   "description" : null,
   "severity" : "NORMAL",
-  "status" : "PASSED",
+  "status" : "FAILED",
   "suite" : {
-    "uid" : "aae5c29b8bfaa21f",
+    "uid" : "10abbdcc4a358ac9",
     "name" : "test_for_find_currency",
     "title" : "Test for find currency"
   },
@@ -24,9 +27,9 @@
     "name" : "open Firefox webdriver and connect to converter site",
     "title" : "open Firefox webdriver and connect to converter site",
     "time" : {
-      "start" : 1487250692477,
-      "stop" : 1487250703259,
-      "duration" : 10782
+      "start" : 1487851239999,
+      "stop" : 1487851250351,
+      "duration" : 10352
     },
     "summary" : {
       "attachments" : 0,
@@ -39,9 +42,9 @@
     "name" : "find window for inserting conversation sum and clear its content",
     "title" : "find window for inserting conversation sum and clear its content",
     "time" : {
-      "start" : 1487250703266,
-      "stop" : 1487250707319,
-      "duration" : 4053
+      "start" : 1487851250356,
+      "stop" : 1487851254420,
+      "duration" : 4064
     },
     "summary" : {
       "attachments" : 0,
@@ -54,9 +57,9 @@
     "name" : "getting parameters for test and insert it to conversation window",
     "title" : "getting parameters for test and insert it to conversation window",
     "time" : {
-      "start" : 1487250707319,
-      "stop" : 1487250707880,
-      "duration" : 561
+      "start" : 1487851254420,
+      "stop" : 1487851258235,
+      "duration" : 3815
     },
     "summary" : {
       "attachments" : 0,
@@ -69,9 +72,9 @@
     "name" : "getting result from \"Вы получите\" window",
     "title" : "getting result from \"Вы получите\" window",
     "time" : {
-      "start" : 1487250710880,
-      "stop" : 1487250710964,
-      "duration" : 84
+      "start" : 1487851258235,
+      "stop" : 1487851258311,
+      "duration" : 76
     },
     "summary" : {
       "attachments" : 0,
@@ -84,8 +87,8 @@
     "name" : "comparison input and output data",
     "title" : "comparison input and output data",
     "time" : {
-      "start" : 1487250710964,
-      "stop" : 1487250710964,
+      "start" : 1487851258311,
+      "stop" : 1487851258311,
       "duration" : 0
     },
     "summary" : {
@@ -98,10 +101,10 @@
   } ],
   "attachments" : [ {
     "title" : "Captured stdout setup",
-    "source" : "a7ed7ad3-e24d-4363-afc3-ebf0765ad05b-attachment.txt",
+    "source" : "351546da-eee7-4895-b32f-ab80e9f31eac-attachment.txt",
     "type" : "text/plain",
     "size" : 27,
-    "uid" : "3f3b745aa39ca79c"
+    "uid" : "4992a6aaa55bc54c"
   } ],
   "issues" : [ ],
   "testIds" : [ ],
@@ -113,7 +116,7 @@
     "value" : "computer"
   }, {
     "name" : "thread",
-    "value" : "8764-MainThread"
+    "value" : "4608-MainThread"
   }, {
     "name" : "suite-title",
     "value" : null

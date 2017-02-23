@@ -4,53 +4,53 @@
     "total" : {
       "statistic" : {
         "total" : 19,
-        "passed" : 13,
+        "passed" : 14,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 6,
+        "failed" : 5,
         "broken" : 0
       },
       "time" : {
-        "start" : 1487250536891,
-        "stop" : 1487250983528,
-        "duration" : 446637
+        "start" : 1487851076569,
+        "stop" : 1487851521377,
+        "duration" : 444808
       }
     },
     "defects" : {
       "totalCount" : 4,
       "items" : [ {
-        "count" : 3,
-        "uid" : "6f29770060e86fa5",
-        "message" : "AssertionError: assert 0",
-        "status" : "FAILED"
-      }, {
-        "count" : 1,
-        "uid" : "364686bed170f521",
-        "message" : "AssertionError: assert '1 000,99' == '0,99'\n  - 1 000,99\n  + 0,99",
-        "status" : "FAILED"
-      }, {
-        "count" : 1,
-        "uid" : "ae0774cd87a05a26",
-        "message" : "AssertionError: assert '100 000 000 000,00' == '1 000 000 000 000,00'\n  - 100 000 000 000,00\n  ?  --\n  + 1 000 000 000 000,00\n  ?          ++++",
-        "status" : "FAILED"
-      }, {
-        "count" : 1,
-        "uid" : "73f2104dfd4f5013",
+        "count" : 2,
+        "uid" : "17e8d49eafce7fcb",
         "message" : "NoSuchElementException: Message: Unable to locate element: .converter-result\n",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "6330c237a21e708c",
+        "message" : "AssertionError: assert <function LeftMenu.check_insert_convertation_sum at 0x034203D8>(<selenium.webdriver.firefox.webdriver.WebDriver (session=\"e9f75c46-caaf-4408-85e3-e14f3a3d1b61\")>, '1000000000000', '1 000 000 000 000,00')\n +  where <function LeftMenu.check_insert_convertation_sum at 0x034203D8> = LeftMenu.check_insert_convertation_sum",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "5f99be7431bbbfa7",
+        "message" : "AssertionError: assert <function RightMenu.check_from_to_filters at 0x03420468>(<selenium.webdriver.firefox.webdriver.WebDriver (session=\"b6fb422c-5088-4fd8-a69c-b6bb9c142045\")>, '31.12.2005', '31.12.2002')\n +  where <function RightMenu.check_from_to_filters at 0x03420468> = RightMenu.check_from_to_filters",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "68ff25095940b26",
+        "message" : "AssertionError: assert <function RightMenu.check_from_to_filters at 0x03420468>(<selenium.webdriver.firefox.webdriver.WebDriver (session=\"5a456ad9-84fa-4686-b195-fc5a7b27740b\")>, '31.01.2002', '31.01.2003')\n +  where <function RightMenu.check_from_to_filters at 0x03420468> = RightMenu.check_from_to_filters",
         "status" : "FAILED"
       } ]
     },
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "aae5c29b8bfaa21f",
+        "uid" : "10abbdcc4a358ac9",
         "title" : "Test for find currency",
         "statistic" : {
           "total" : 19,
-          "passed" : 13,
+          "passed" : 14,
           "pending" : 0,
           "canceled" : 0,
-          "failed" : 6,
+          "failed" : 5,
           "broken" : 0
         }
       } ]
@@ -71,10 +71,10 @@
         "title" : "Test: \"input data to filters\"",
         "statistic" : {
           "total" : 6,
-          "passed" : 3,
+          "passed" : 4,
           "pending" : 0,
           "canceled" : 0,
-          "failed" : 3,
+          "failed" : 2,
           "broken" : 0
         }
       }, {

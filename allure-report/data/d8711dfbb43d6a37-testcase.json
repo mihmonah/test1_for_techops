@@ -1,11 +1,11 @@
 {
-  "uid" : "ca60c292d67f64fe",
+  "uid" : "d8711dfbb43d6a37",
   "name" : "test_insert_convertation_sum[max_correct]",
   "title" : "Test insert convertation sum [max_correct]",
   "time" : {
-    "start" : 1487250655407,
-    "stop" : 1487250674389,
-    "duration" : 18982
+    "start" : 1487851221909,
+    "stop" : 1487851239897,
+    "duration" : 17988
   },
   "summary" : {
     "attachments" : 1,
@@ -16,7 +16,7 @@
   "severity" : "NORMAL",
   "status" : "PASSED",
   "suite" : {
-    "uid" : "aae5c29b8bfaa21f",
+    "uid" : "10abbdcc4a358ac9",
     "name" : "test_for_find_currency",
     "title" : "Test for find currency"
   },
@@ -24,9 +24,9 @@
     "name" : "open Firefox webdriver and connect to converter site",
     "title" : "open Firefox webdriver and connect to converter site",
     "time" : {
-      "start" : 1487250655409,
-      "stop" : 1487250665973,
-      "duration" : 10564
+      "start" : 1487851221910,
+      "stop" : 1487851231570,
+      "duration" : 9660
     },
     "summary" : {
       "attachments" : 0,
@@ -39,9 +39,9 @@
     "name" : "find window for inserting conversation sum and clear its content",
     "title" : "find window for inserting conversation sum and clear its content",
     "time" : {
-      "start" : 1487250665979,
-      "stop" : 1487250670310,
-      "duration" : 4331
+      "start" : 1487851231578,
+      "stop" : 1487851235866,
+      "duration" : 4288
     },
     "summary" : {
       "attachments" : 0,
@@ -54,9 +54,9 @@
     "name" : "getting parameters for test and insert it to conversation window",
     "title" : "getting parameters for test and insert it to conversation window",
     "time" : {
-      "start" : 1487250670310,
-      "stop" : 1487250671288,
-      "duration" : 978
+      "start" : 1487851235866,
+      "stop" : 1487851239814,
+      "duration" : 3948
     },
     "summary" : {
       "attachments" : 0,
@@ -69,9 +69,9 @@
     "name" : "getting result from \"Вы получите\" window",
     "title" : "getting result from \"Вы получите\" window",
     "time" : {
-      "start" : 1487250674288,
-      "stop" : 1487250674389,
-      "duration" : 101
+      "start" : 1487851239814,
+      "stop" : 1487851239896,
+      "duration" : 82
     },
     "summary" : {
       "attachments" : 0,
@@ -84,8 +84,8 @@
     "name" : "comparison input and output data",
     "title" : "comparison input and output data",
     "time" : {
-      "start" : 1487250674389,
-      "stop" : 1487250674389,
+      "start" : 1487851239896,
+      "stop" : 1487851239896,
       "duration" : 0
     },
     "summary" : {
@@ -98,10 +98,10 @@
   } ],
   "attachments" : [ {
     "title" : "Captured stdout setup",
-    "source" : "af1b7cde-fc6d-44a4-961e-c60b985884ac-attachment.txt",
+    "source" : "091f0187-9006-46ac-ace1-6c06a670e78e-attachment.txt",
     "type" : "text/plain",
     "size" : 27,
-    "uid" : "27f674f4b35e5513"
+    "uid" : "fa12dfbe66cee3ed"
   } ],
   "issues" : [ ],
   "testIds" : [ ],
@@ -113,7 +113,7 @@
     "value" : "computer"
   }, {
     "name" : "thread",
-    "value" : "8764-MainThread"
+    "value" : "4608-MainThread"
   }, {
     "name" : "suite-title",
     "value" : null

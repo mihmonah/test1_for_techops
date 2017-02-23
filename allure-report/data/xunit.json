@@ -1,233 +1,233 @@
 {
   "time" : {
-    "start" : 1487250536891,
-    "stop" : 1487250983528,
-    "duration" : 446637
+    "start" : 1487851076569,
+    "stop" : 1487851521377,
+    "duration" : 444808
   },
   "testSuites" : [ {
-    "uid" : "aae5c29b8bfaa21f",
+    "uid" : "10abbdcc4a358ac9",
     "name" : "test_for_find_currency",
     "title" : "Test for find currency",
     "time" : {
-      "start" : 1487250536891,
-      "stop" : 1487250983528,
-      "duration" : 446637
+      "start" : 1487851076569,
+      "stop" : 1487851521377,
+      "duration" : 444808
     },
     "statistic" : {
       "total" : 19,
-      "passed" : 13,
+      "passed" : 14,
       "pending" : 0,
       "canceled" : 0,
-      "failed" : 6,
+      "failed" : 5,
       "broken" : 0
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "8a5e5ab3f42aa084",
+      "uid" : "80c19adf1aec2e2f",
       "name" : "test_find_currency[RUR]",
       "title" : "Test find currency [RUR]",
       "time" : {
-        "start" : 1487250536891,
-        "stop" : 1487250550823,
-        "duration" : 13932
+        "start" : 1487851076569,
+        "stop" : 1487851091162,
+        "duration" : 14593
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "ae676c7033f5ab00",
+      "uid" : "a5e7d684e90e0d8a",
       "name" : "test_find_currency[CHF]",
       "title" : "Test find currency [CHF]",
       "time" : {
-        "start" : 1487250550916,
-        "stop" : 1487250563891,
-        "duration" : 12975
+        "start" : 1487851091280,
+        "stop" : 1487851104319,
+        "duration" : 13039
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "9b2c44bb729a7668",
+      "uid" : "c5d41df98d0d9566",
       "name" : "test_find_currency[EUR]",
       "title" : "Test find currency [EUR]",
       "time" : {
-        "start" : 1487250563987,
-        "stop" : 1487250576649,
-        "duration" : 12662
+        "start" : 1487851104418,
+        "stop" : 1487851117878,
+        "duration" : 13460
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "12595ea4ef8a59fd",
+      "uid" : "17be0a873a905435",
       "name" : "test_find_currency[GBP]",
       "title" : "Test find currency [GBP]",
       "time" : {
-        "start" : 1487250576756,
-        "stop" : 1487250590233,
-        "duration" : 13477
+        "start" : 1487851117983,
+        "stop" : 1487851130172,
+        "duration" : 12189
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "1f94ea24fefcc503",
+      "uid" : "be9fd1fff5135b5e",
       "name" : "test_find_currency[JPY]",
       "title" : "Test find currency [JPY]",
       "time" : {
-        "start" : 1487250590343,
-        "stop" : 1487250604212,
-        "duration" : 13869
+        "start" : 1487851130301,
+        "stop" : 1487851142656,
+        "duration" : 12355
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "af0db6204632631c",
+      "uid" : "466d0edaccd15ca6",
       "name" : "test_find_currency[USD]",
       "title" : "Test find currency [USD]",
       "time" : {
-        "start" : 1487250604315,
-        "stop" : 1487250617500,
-        "duration" : 13185
+        "start" : 1487851142758,
+        "stop" : 1487851155975,
+        "duration" : 13217
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "2549cd4321081e3a",
+      "uid" : "6526da79f9cd04c9",
       "name" : "test_insert_convertation_sum[min_incorrect]",
       "title" : "Test insert convertation sum [min_incorrect]",
       "time" : {
-        "start" : 1487250617606,
-        "stop" : 1487250636093,
-        "duration" : 18487
+        "start" : 1487851156063,
+        "stop" : 1487851203471,
+        "duration" : 47408
       },
       "severity" : "NORMAL",
       "status" : "FAILED"
     }, {
-      "uid" : "82f337c9804290ca",
+      "uid" : "9e0609a66089c206",
       "name" : "test_insert_convertation_sum[min_correct]",
       "title" : "Test insert convertation sum [min_correct]",
       "time" : {
-        "start" : 1487250636194,
-        "stop" : 1487250655314,
-        "duration" : 19120
+        "start" : 1487851203556,
+        "stop" : 1487851221825,
+        "duration" : 18269
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "ca60c292d67f64fe",
+      "uid" : "d8711dfbb43d6a37",
       "name" : "test_insert_convertation_sum[max_correct]",
       "title" : "Test insert convertation sum [max_correct]",
       "time" : {
-        "start" : 1487250655407,
-        "stop" : 1487250674389,
-        "duration" : 18982
+        "start" : 1487851221909,
+        "stop" : 1487851239897,
+        "duration" : 17988
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "dd4a7708d8554314",
+      "uid" : "b703045eaf4a147a",
       "name" : "test_insert_convertation_sum[max_incorrect]",
       "title" : "Test insert convertation sum [max_incorrect]",
       "time" : {
-        "start" : 1487250674504,
-        "stop" : 1487250692362,
-        "duration" : 17858
+        "start" : 1487851239998,
+        "stop" : 1487851258316,
+        "duration" : 18318
       },
       "severity" : "NORMAL",
       "status" : "FAILED"
     }, {
-      "uid" : "7e8a89b27984ca03",
+      "uid" : "46d9851638bfb333",
       "name" : "test_insert_convertation_sum[incorrect_data_with_correct_answer]",
       "title" : "Test insert convertation sum [incorrect_data_with_correct_answer]",
       "time" : {
-        "start" : 1487250692476,
-        "stop" : 1487250710964,
-        "duration" : 18488
+        "start" : 1487851258425,
+        "stop" : 1487851275877,
+        "duration" : 17452
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "508daec447bf1cbd",
+      "uid" : "b296391ad6c82bc2",
       "name" : "test_insert_convertation_sum[incorrect_data_with_incorrect_answer]",
       "title" : "Test insert convertation sum [incorrect_data_with_incorrect_answer]",
       "time" : {
-        "start" : 1487250711071,
-        "stop" : 1487250765092,
-        "duration" : 54021
+        "start" : 1487851275985,
+        "stop" : 1487851323021,
+        "duration" : 47036
       },
       "severity" : "NORMAL",
       "status" : "FAILED"
     }, {
-      "uid" : "9046cef8797a8c56",
+      "uid" : "59fde1eb3b91a279",
       "name" : "test_insert_convertation_sum[correct_data_with_correct_answer]",
       "title" : "Test insert convertation sum [correct_data_with_correct_answer]",
       "time" : {
-        "start" : 1487250765175,
-        "stop" : 1487250783426,
-        "duration" : 18251
+        "start" : 1487851323103,
+        "stop" : 1487851341330,
+        "duration" : 18227
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "5332efd691dd8dde",
+      "uid" : "eeae1271c46f104c",
       "name" : "test_input_data_to_filters[correct_dates]",
       "title" : "Test input data to filters [correct_dates]",
       "time" : {
-        "start" : 1487250783520,
-        "stop" : 1487250801894,
-        "duration" : 18374
+        "start" : 1487851341422,
+        "stop" : 1487851360961,
+        "duration" : 19539
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "f19b4454e694485",
+      "uid" : "e231b751d69bd54",
       "name" : "test_input_data_to_filters[incorrect_dates]",
       "title" : "Test input data to filters [incorrect_dates]",
       "time" : {
-        "start" : 1487250802004,
-        "stop" : 1487250851329,
-        "duration" : 49325
+        "start" : 1487851361041,
+        "stop" : 1487851411363,
+        "duration" : 50322
       },
       "severity" : "NORMAL",
       "status" : "FAILED"
     }, {
-      "uid" : "6fa7c26a1fab2033",
+      "uid" : "d4ba64af99093453",
       "name" : "test_input_data_to_filters[incorrect_date_to]",
       "title" : "Test input data to filters [incorrect_date_to]",
       "time" : {
-        "start" : 1487250851445,
-        "stop" : 1487250869767,
-        "duration" : 18322
+        "start" : 1487851411451,
+        "stop" : 1487851431721,
+        "duration" : 20270
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "28bba3c39c28b09a",
+      "uid" : "dae1e437de28143f",
       "name" : "test_input_data_to_filters[incorrect_date_from]",
       "title" : "Test input data to filters [incorrect_date_from]",
       "time" : {
-        "start" : 1487250869880,
-        "stop" : 1487250887758,
-        "duration" : 17878
+        "start" : 1487851431818,
+        "stop" : 1487851452479,
+        "duration" : 20661
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "1e2a45abed8e52de",
+      "uid" : "d9026f9f1c1847a0",
       "name" : "test_input_data_to_filters[same_from_to_dates]",
       "title" : "Test input data to filters [same_from_to_dates]",
       "time" : {
-        "start" : 1487250887879,
-        "stop" : 1487250935909,
-        "duration" : 48030
+        "start" : 1487851452580,
+        "stop" : 1487851472604,
+        "duration" : 20024
       },
       "severity" : "NORMAL",
-      "status" : "FAILED"
+      "status" : "PASSED"
     }, {
-      "uid" : "3d76ddc8ae35ebd",
+      "uid" : "a5d2f59a159c390b",
       "name" : "test_input_data_to_filters[correct_dates_no_data]",
       "title" : "Test input data to filters [correct_dates_no_data]",
       "time" : {
-        "start" : 1487250936023,
-        "stop" : 1487250983528,
-        "duration" : 47505
+        "start" : 1487851472708,
+        "stop" : 1487851521377,
+        "duration" : 48669
       },
       "severity" : "NORMAL",
       "status" : "FAILED"
