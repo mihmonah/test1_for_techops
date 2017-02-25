@@ -13,16 +13,17 @@ class LeftMenuLocators(object):
 class RightMenuLocators(object):
     # first currency change menu
     FIST_CUR = (By.XPATH, "//div[@class='select']//strong")
-    CUR = [(By.XPATH, "//div[@class='visible']//span[1]"),                            # visible list of currency
+    # visible list of currency
+    CUR = [(By.XPATH, "//div[@class='visible']//span[1]"),
            (By.XPATH, "//div[@class='visible']//span[2]"),
            (By.XPATH, "//div[@class='visible']//span[3]"),
            (By.XPATH, "//div[@class='visible']//span[4]"),
            (By.XPATH, "//div[@class='visible']//span[5]"),
            (By.XPATH, "//div[@class='visible']//span[6]")]
-    # "Динамика изменения курсов"
+    # button "Динамика изменения курсов"
     LEFT_TABLE = (
         By.XPATH, "//ul[@class='rates-tabs rates-right']//li[1]//span")
-    # "Расширенная таблица курсов"
+    # button "Расширенная таблица курсов"
     RIGHT_TABLE = (
         By.XPATH, "//ul[@class='rates-tabs rates-right']//li[2]//span")
     # date filter from

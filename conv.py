@@ -2,10 +2,10 @@ import csv
 
 
 def csv_to_args(scv_file_name):
-"""
-Function from this module takes data from .csv file and generate
-list of tuples with this data.
-"""
+    """
+    Function from this module takes data from .csv file and generate
+    list of tuples with this data.
+    """
     csvfile = open(scv_file_name, newline='')
     spamreader = csv.reader(csvfile, delimiter=';', quotechar='|')
     ids = []
