@@ -30,7 +30,7 @@ def resource_setup(request):
     and finalizer, which close driver and browser.
     """
     print("\nconnect to converter site")
-    with pytest.allure.step('open Firefox webdriver and connect to converter site'):
+    with pytest.allure.step('open Firefox and connect to converter site'):
         driver = webdriver.Firefox()
         driver.get("http://www.sberbank.ru/ru/quotes/converter")
     driver.implicitly_wait(30)

@@ -10,8 +10,9 @@ from menues import LeftMenu
 @allure.feature('Test: "find currency"')
 def test_find_currency(resource_setup, input_currency):
     """
-    In this test case we check that chosen currency doesn't change after clicking
-    between tables "Динамика изменения курсов" and "Расширенная таблица курсов".
+    In this test case we check that chosen currency doesn't change
+    after clicking between tables "Динамика изменения курсов"
+    and "Расширенная таблица курсов".
     """
     (i_c, i_c_n) = input_currency
     assert LeftMenu.check_find_currency(resource_setup, i_c, i_c_n)

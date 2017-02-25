@@ -32,6 +32,7 @@ class RightMenuLocators(object):
     TO_FILTER = (By.NAME, 'filter-datepicker-details-to')
     # button "Показать" from right menu
     BUTTON = (
-        By.XPATH, "//div[@class='rates-details-period-datepicker-line']//button")
+        By.XPATH,
+        "//div[@class='rates-details-period-datepicker-line']//button")
     # captions to the x-axis
     X_DATA_FIELD = (By.CLASS_NAME, 'jqplot-axis.jqplot-xaxis')
